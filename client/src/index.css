@@ -1,0 +1,98 @@
+:root {
+  font-family: 'Noto Sans', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  font-family: inherit;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: none;
+}
+a:hover {
+  color: #535bf2;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+}
+
+button {
+  font-family: inherit;
+}
+
+
+.navbar-gradient {
+  background: linear-gradient(90deg, #6f42c1 0%, #6610f2 100%);
+  color: #fff;
+}
+
+.page-title-underline {
+  bottom: -8px;
+  width: 60px;
+  height: 4px;
+  background-color: #0d6efd;
+  border-radius: 2px;
+}
+
+
+.card-header-gradient {
+  background: linear-gradient(90deg, #6f42c1 0%, #6610f2 100%);
+}
+
+.item-box-custom {
+  background-color: #ffffff;
+  border-left: 6px solid #6f42c1;
+  font-size: 1.15rem;
+}
+
+.form-product-gradient {
+  background: linear-gradient(135deg, #f3e8ff 0%, #e0f7ff 100%);
+  border-color: #ddd !important;
+}
+
+
+.fab-save-button {
+  width: 80px;
+  height: 80px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    background-color: #ffffff;
+    color: #212529;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+}
+
