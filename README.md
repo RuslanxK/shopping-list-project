@@ -65,6 +65,14 @@
   <li>Add products and assign them to categories</li>
   <li>Group and display products by category</li>
   <li>Save your entire shopping list with a single click</li>
+  <li><strong>The "Save" button will structure the data by category, items, and quantity – ready for order processing</strong></li>
   <li>Responsive design with Bootstrap</li>
   <li>State management using Redux Toolkit</li>
 </ul>
+
+<hr />
+
+<h3>📝 Note</h3>
+<p>
+  After clicking the "Save" button, the products are deleted from the list because an order was created. The user can then start a <strong>new order</strong> from scratch.
+</p>
