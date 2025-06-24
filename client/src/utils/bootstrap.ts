@@ -1,6 +1,6 @@
-export const inputLg = "form-control form-control-lg shadow-sm";
-export const selectLg = "form-select form-select-lg shadow-sm";
-export const btnLgSuccess = "btn btn-success btn-lg shadow-sm";
+export const inputLg = "form-control form-control-lg shadow-sm w-100";
+export const selectLg = "form-select form-select-lg shadow-sm w-100";
+export const btnLgSuccess = "btn btn-success btn-lg shadow-sm w-100";
 export const cardContainer = "card h-100 shadow-sm border-0";
 export const badgePrimary = "badge bg-primary";
 export const lightBox = "bg-light rounded px-3 py-2 border text-center fw-medium";

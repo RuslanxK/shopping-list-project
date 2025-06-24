@@ -94,5 +94,13 @@ button {
   a:hover {
     color: #747bff;
   }
+
+  @media (max-width: 767px) {
+  #root {
+    padding: 10px; /* Remove horizontal padding */
+    
+  }
+}
+  
 }
 
